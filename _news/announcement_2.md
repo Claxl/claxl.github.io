@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-02-15 12:00:00+0100
+date: 2026-04-14 12:00:00+0100
 inline: true
 related_posts: false
 ---
 
-*UCHIHA: A Domain-Specific CGRA Overlay with QAC-Driven Spatial Reconfiguration for Satellite Vision* has been accepted at the **IEEE FCCM 2026 PhD Forum**.
+*To Infinity and Beyond: A Reconfigurable Architecture for  Space Vision Computing* has been accepted at the **IEEE FCCM 2026 PhD Forum**.
