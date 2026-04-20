@@ -51,12 +51,7 @@ ninja.data = [{
           section: "News",},{id: "news-to-infinity-and-beyond-a-reconfigurable-architecture-for-space-vision-computing-has-been-accepted-at-the-ieee-fccm-2026-phd-forum",
           title: 'To Infinity and Beyond: A Reconfigurable Architecture for Space Vision Computing has been...',
           description: "",
-          section: "News",},{id: "projects-fpga101-hls-on-fpgas",
-          title: 'FPGA101 — HLS on FPGAs',
-          description: "Teaching material for an HLS-to-PYNQ flow on the Ultra96.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_fpga101.html";
-            },},{
+          section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
