@@ -2,28 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student @ <a href='https://necst.it'>NECSTLab</a>, <a href='https://www.polimi.it'>Politecnico di Milano</a>. Supervised by <a href='...'>Prof. Davide Conficconi</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Building 20, DEIB</p>
+    <p>Via Ponzio 34/5</p>
+    <p>20133 Milano, Italy</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+selected_papers: true   # mostra i paper con `selected={true}` nel .bib
+social: true            # mostra le icone social sotto la foto
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
+I'm a first-year PhD student at [NECSTLab](https://necst.it), Politecnico di Milano, 
+working on **measurement-driven hardware-software co-design of reconfigurable 
+architectures for adaptive space vision computing**. My research focuses on 
+satellite on-board processing — building the runtime methodology and the CGRA 
+infrastructure that let spacecraft adapt their compute to changing workloads 
+on the fly.
+
+Currently exploring three directions: workload characterization through 
+STAR-Bench, QAC-driven runtime optimality metrics, and the UCHIHA CGRA 
+overlay (with a planned ASIC tape-out via open shuttle programs).
+
+Before the PhD, I completed my MSc at Politecnico di Milano working on 
+satellite image registration on embedded FPGAs.
