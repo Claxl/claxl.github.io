@@ -1,42 +1,88 @@
-# Colors and links for the abbr badges rendered next to each paper title.
-# Any `abbr` value in papers.bib that matches a key here gets its color/link.
+# -----------------------------------------------------------------------------
+# Venue badge colors and links.
+#
+# Each key corresponds to an `abbr` value used in _bibliography/papers.bib.
+# Claude Di Salvo — maintained list covering computer architecture,
+# reconfigurable computing, and systems venues likely to appear in the CV.
+# -----------------------------------------------------------------------------
+
+# -- Venues already in use ----------------------------------------------------
 
 SIGMETRICS:
   url: https://www.sigmetrics.org/
-  color: "#3f51b5"
+  color: "#3f51b5"   # indigo
 
 FCCM:
   url: https://www.fccm.org/
-  color: "#e91e63"
+  color: "#e91e63"   # pink
+
+FCCM PhDF:
+  url: https://www.fccm.org/
+  color: "#9c27b0"   # purple — PhD Forum variant, visually distinct from FCCM full
+
+# -- Other venues you may add later ------------------------------------------
 
 ASPLOS:
   url: https://asplos-conference.org/
-  color: "#00897b"
-
-MICRO:
-  url: https://microarch.org/
-  color: "#6d4c41"
-
-HPCA:
-  url: https://hpca-conf.org/
-  color: "#5e35b1"
+  color: "#00897b"   # teal
 
 ISCA:
   url: https://iscaconf.org/
-  color: "#c62828"
+  color: "#c62828"   # red
 
-DATE:
-  url: https://www.date-conference.com/
-  color: "#2e7d32"
+MICRO:
+  url: https://microarch.org/
+  color: "#6d4c41"   # brown
+
+HPCA:
+  url: https://hpca-conf.org/
+  color: "#5e35b1"   # deep purple
 
 DAC:
   url: https://www.dac.com/
-  color: "#ef6c00"
+  color: "#ef6c00"   # orange
+
+DATE:
+  url: https://www.date-conference.com/
+  color: "#2e7d32"   # green
 
 FPL:
-  url: https://www.fpl2025.org/
-  color: "#00695c"
+  url: https://www.fpl.org/
+  color: "#00695c"   # dark teal
 
 FPGA:
   url: https://www.isfpga.org/
-  color: "#455a64"
+  color: "#455a64"   # blue grey
+
+CODES+ISSS:
+  url: https://esweek.org/codesisss/
+  color: "#7b1fa2"   # purple
+
+RECONFIG:
+  url: https://reconfig.io/
+  color: "#0277bd"   # light blue
+
+ASP-DAC:
+  url: https://www.aspdac.com/
+  color: "#1565c0"   # blue
+
+TCAD:
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43
+  color: "#37474f"   # dark grey — journal
+
+TRETS:
+  url: https://dl.acm.org/journal/trets
+  color: "#424242"   # grey — journal
+
+TPDS:
+  url: https://www.computer.org/csdl/journal/td
+  color: "#263238"   # dark grey — journal
+
+# -- Custom / fallback -------------------------------------------------------
+
+Preprint:
+  url: https://arxiv.org/
+  color: "#757575"   # neutral grey
+
+Workshop:
+  color: "#607d8b"   # blue grey
