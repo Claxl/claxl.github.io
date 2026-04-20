@@ -51,12 +51,7 @@ ninja.data = [{
           section: "News",},{id: "news-to-infinity-and-beyond-a-reconfigurable-architecture-for-space-vision-computing-has-been-accepted-at-the-ieee-fccm-2026-phd-forum",
           title: 'To Infinity and Beyond: A Reconfigurable Architecture for Space Vision Computing has been...',
           description: "",
-          section: "News",},{id: "projects-uchiha",
-          title: 'UCHIHA',
-          description: "A domain-specific CGRA overlay with QAC-driven spatial reconfiguration for satellite vision.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_uchiha.html";
-            },},{id: "projects-star-bench",
+          section: "News",},{id: "projects-star-bench",
           title: 'STAR-Bench',
           description: "A benchmark of ~24k satellite image registration tasks for on-board vision.",
           section: "Projects",handler: () => {
