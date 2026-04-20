@@ -4,37 +4,66 @@
 @string{sigmetrics = {Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS)}}
 @string{fccm       = {IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)}}
 
-@inproceedings{disalvo2026starbench,
+
+@article{disalvo2026sigmetrics,
   abbr         = {SIGMETRICS},
   title        = {Are We Ready to Enable Satellite Autonomy Through On-Board Image Registration?},
-  author       = {Di Salvo, Claudio and Conficconi, Davide},
-  booktitle    = sigmetrics,
+  author       = {Di Salvo, Claudio and Del Sozzo, Emanuele and Sorrentino, Giuseppe and D'Arnese, Eleonora and Panicucci, Paolo and Conficconi, Davide},
+  journal      = sigmetrics,
   year         = {2026},
   selected     = {true},
   bibtex_show  = {true},
-  abstract     = {Satellite autonomy requires on-board image registration that is both
-                  accurate and efficient under strict power and thermal constraints. We
-                  introduce STAR-Bench, a benchmark of roughly 24k registration tasks
-                  spanning terrain types and difficulty levels, and characterize the
-                  design space of on-board registration pipelines. We quantify the
-                  accuracy/energy trade-offs of feature- and intensity-based approaches
-                  and derive guidelines for bringing registration on board.},
-  pdf          = {paper-sigmetrics26.pdf},
-  code         = {https://github.com/claxl/star-bench}
+  abstract     = {Satellite autonomy requires on-board image registration that is
+                  both accurate and efficient under strict power and thermal
+                  constraints. We introduce a characterization methodology and
+                  a benchmark of registration tasks spanning terrain types and
+                  difficulty levels, and study the accuracy/energy trade-offs of
+                  feature- and intensity-based pipelines to derive guidelines for
+                  bringing registration on board.}
 }
 
-@inproceedings{disalvo2026uchiha,
+
+@inproceedings{disalvo2026sigmetricsabstract,
+  abbr         = {SIGMETRICS},
+  title        = {Are We Ready to Enable Satellite Autonomy Through On-Board Image Registration? (Extended Abstract)},
+  author       = {Di Salvo, Claudio and Del Sozzo, Emanuele and Sorrentino, Giuseppe and D'Arnese, Eleonora and Panicucci, Paolo and Conficconi, Davide},
+  booktitle    = {ACM SIGMETRICS, Extended Abstract Track},
+  year         = {2026},
+  bibtex_show  = {true},
+  abstract     = {Extended abstract companion to the full paper, summarizing the
+                  characterization methodology and headline findings on the
+                  accuracy/energy trade-offs of on-board satellite image
+                  registration.}
+}
+
+
+@inproceedings{sorrentino2026fccm,
   abbr         = {FCCM},
-  title        = {{UCHIHA}: A Domain-Specific {CGRA} Overlay with {QAC}-Driven Spatial
-                  Reconfiguration for Satellite Vision},
+  title        = {Adaptive {AIE--PL} Systems for Efficient End-to-End Pyramidal {3D} Image Registration},
+  author       = {Sorrentino, Giuseppe and Galfano, Paolo S. and Di Salvo, Claudio and D'Arnese, Eleonora and Conficconi, Davide},
+  booktitle    = fccm,
+  year         = {2026},
+  selected     = {true},
+  bibtex_show  = {true},
+  abstract     = {We present an adaptive AIE--PL system co-designed for end-to-end
+                  pyramidal 3D image registration on AMD/Xilinx Versal platforms.
+                  The architecture balances AI Engine and programmable-logic work
+                  across pyramid levels, trading throughput for accuracy at runtime.}
+}
+
+
+@inproceedings{disalvo2026uchiha,
+  abbr         = {FCCM PhDF},
+  title        = {To Infinity and Beyond: A Reconfigurable Architecture for Space Vision Computing},
   author       = {Di Salvo, Claudio and Conficconi, Davide},
   booktitle    = {IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM), PhD Forum},
   year         = {2026},
   selected     = {true},
   bibtex_show  = {true},
-  abstract     = {We present UCHIHA, a domain-specific CGRA overlay with QAC-driven
-                  spatial reconfiguration for on-board satellite vision. PEs hold
-                  per-cell configuration registers and are orchestrated by an ARM
-                  hard-core over AXI. A planned ASIC tape-out through open shuttle
-                  programs targets radiation- and power-constrained deployment.}
+  abstract     = {A domain-specific CGRA overlay with QAC-driven spatial
+                  reconfiguration for on-board satellite vision. PEs hold
+                  per-cell configuration registers and are orchestrated by an
+                  ARM hard-core over AXI. A planned ASIC tape-out through open
+                  shuttle programs targets radiation- and power-constrained
+                  deployment.}
 }
