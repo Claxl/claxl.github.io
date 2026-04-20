@@ -5,7 +5,7 @@ permalink: /
 subtitle: >
   PhD Student @ <a href='https://necst.it'>NECSTLab</a>,
   <a href='https://www.polimi.it'>Politecnico di Milano</a>.
-  Advised by <a href='https://davideconficconi.github.it/'>Prof. Davide Conficconi</a>.
+  Advised by <a href='https://davideconficconi.github.io/'>Prof. Davide Conficconi</a>.
 
 profile:
   align: right
